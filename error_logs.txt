@@ -1,0 +1,167 @@
+[    3.879143] systemd[1]: Finished modprobe@fuse.service - Load Kernel Module fuse.
+[    3.913621] systemd[1]: nfs-convert.service: Deactivated successfully.
+[    3.918595] ACPI: bus type drm_connector registered
+[    3.924357] systemd[1]: Finished nfs-convert.service - Preprocess NFS configuration convertion.
+[    3.929813] systemd[1]: Started systemd-journald.service - Journal Service.
+[    4.045815] systemd-journald[1043]: Received client request to flush runtime journal.
+[    4.514075] vif vif-0 enX0: renamed from eth0
+[    4.695877] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[    5.102549] RPC: Registered named UNIX socket transport module.
+[    5.107293] RPC: Registered udp transport module.
+[    5.111272] RPC: Registered tcp transport module.
+[    5.115222] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    5.121779] ACPI: button: Power Button [PWRF]
+[    5.125723] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+[    5.470138] ACPI: button: Sleep Button [SLPF]
+[    5.549197] cryptd: max_cpu_qlen set to 1000
+[    5.632673] systemd-sysv-generator[1825]: SysV service '/etc/rc.d/init.d/cfn-hup' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    5.664174] SCSI subsystem initialized
+[    5.674654] AVX2 version of gcm_enc/dec engaged.
+[    5.674677] AES CTR mode by8 optimization enabled
+[    5.778998] libata version 3.00 loaded.
+[    5.782754] ata_piix 0000:00:01.1: version 2.13
+[    5.817552] scsi host0: ata_piix
+[    5.878944] scsi host1: ata_piix
+[    5.879432] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc100 irq 14
+[    5.879434] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc108 irq 15
+[    7.822328] cloud-init[2011]: Cloud-init v. 22.2.2 running 'init' at Mon, 08 May 2023 12:52:44 +0000. Up 7.74 seconds.
+[    8.001236] cloud-init[2011]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++
+[    8.018606] cloud-init[2011]: ci-info: +--------+------+----------------------------+---------------+--------+-------------------+
+[    8.048932] cloud-init[2011]: ci-info: | Device |  Up  |          Address           |      Mask     | Scope  |     Hw-Address    |
+[    8.059407] cloud-init[2011]: ci-info: +--------+------+----------------------------+---------------+--------+-------------------+
+[    8.088357] cloud-init[2011]: ci-info: |  enX0  | True |         10.0.4.247         | 255.255.255.0 | global | 06:c5:3c:05:05:80 |
+[    8.108452] cloud-init[2011]: ci-info: |  enX0  | True | fe80::4c5:3cff:fe05:580/64 |       .       |  link  | 06:c5:3c:05:05:80 |
+[    8.128444] cloud-init[2011]: ci-info: |   lo   | True |         127.0.0.1          |   255.0.0.0   |  host  |         .         |
+[    8.138734] cloud-init[2011]: ci-info: |   lo   | True |          ::1/128           |       .       |  host  |         .         |
+[    8.153784] cloud-init[2011]: ci-info: +--------+------+----------------------------+---------------+--------+-------------------+
+[    8.168470] cloud-init[2011]: ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+[    8.182075] cloud-init[2011]: ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+[    8.198467] cloud-init[2011]: ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+[    8.205719] cloud-init[2011]: ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+[    8.218354] cloud-init[2011]: ci-info: |   0   |   0.0.0.0   | 10.0.4.1 |     0.0.0.0     |    enX0   |   UG  |
+[    8.238351] cloud-init[2011]: ci-info: |   1   |   10.0.0.2  | 10.0.4.1 | 255.255.255.255 |    enX0   |  UGH  |
+[    8.258419] cloud-init[2011]: ci-info: |   2   |   10.0.4.0  | 0.0.0.0  |  255.255.255.0  |    enX0   |   U   |
+[    8.267180] cloud-init[2011]: ci-info: |   3   |   10.0.4.1  | 0.0.0.0  | 255.255.255.255 |    enX0   |   UH  |
+[    8.288368] cloud-init[2011]: ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+[    8.296666] cloud-init[2011]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+[    8.318444] cloud-init[2011]: ci-info: +-------+-------------+---------+-----------+-------+
+[    8.326909] cloud-init[2011]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+[    8.341019] cloud-init[2011]: ci-info: +-------+-------------+---------+-----------+-------+
+[    8.358284] cloud-init[2011]: ci-info: |   1   |  fe80::/64  |    ::   |    enX0   |   U   |
+[    8.365861] cloud-init[2011]: ci-info: |   3   |    local    |    ::   |    enX0   |   U   |
+[    8.378395] cloud-init[2011]: ci-info: |   4   |  multicast  |    ::   |    enX0   |   U   |
+[    8.398197] cloud-init[2011]: ci-info: +-------+-------------+---------+-----------+-------+
+[   10.206333] cloud-init[2011]: Generating public/private ed25519 key pair.
+[   10.218358] cloud-init[2011]: Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+[   10.248229] cloud-init[2011]: Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+[   10.255517] cloud-init[2011]: The key fingerprint is:
+[   10.278327] cloud-init[2011]: SHA256:oxH+C2ovrcAhHgDAqxrmjRJjAUeL51ZzSXPXFykpJDw root@ip-10-0-4-247.ap-southeast-1.compute.internal
+[   10.318360] cloud-init[2011]: The key's randomart image is:
+[   10.348271] cloud-init[2011]: +--[ED25519 256]--+
+[   10.364547] cloud-init[2011]: |=..   o.o.o. ..o |
+[   10.386824] cloud-init[2011]: |oo.. . +Eo. + o  |
+[   10.414778] cloud-init[2011]: |+.+ o +  . . o   |
+[   10.467045] cloud-init[2011]: |.= . + .         |
+[   10.471556] cloud-init[2011]: |o.=   o S        |
+[   10.480266] cloud-init[2011]: |**..   + .       |
+[   10.498311] cloud-init[2011]: |===  .o .        |
+[   10.505273] cloud-init[2011]: |oo oo... .       |
+[   10.518189] cloud-init[2011]: |.  .o+. .        |
+[   10.538200] cloud-init[2011]: +----[SHA256]-----+
+[   10.548194] cloud-init[2011]: Generating public/private ecdsa key pair.
+[   10.553273] cloud-init[2011]: Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+[   10.588311] cloud-init[2011]: Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+[   10.598265] cloud-init[2011]: The key fingerprint is:
+[   10.608190] cloud-init[2011]: SHA256:2rwVWkq55pfhlf+arZb+QLySh+pROtUdsntid/Ox4fk root@ip-10-0-4-247.ap-southeast-1.compute.internal
+[   10.638221] cloud-init[2011]: The key's randomart image is:
+[   10.641317] cloud-init[2011]: +---[ECDSA 256]---+
+[   10.643960] cloud-init[2011]: |                 |
+[   10.658190] cloud-init[2011]: |                 |
+[   10.668153] cloud-init[2011]: |             . . |
+[   10.678182] cloud-init[2011]: |         .   oo..|
+[   10.688175] cloud-init[2011]: |        S o oo+ .|
+[   10.698285] cloud-init[2011]: |       = =.=o+.. |
+[   10.718191] cloud-init[2011]: |      . B.=++=+B.|
+[   10.728189] cloud-init[2011]: |       o o++.oO+O|
+[   10.732041] cloud-init[2011]: |        ooo  o=OE|
+[   10.748180] cloud-init[2011]: +----[SHA256]-----+
+[   11.179550] cloud-init[2073]: Cloud-init v. 22.2.2 running 'modules:config' at Mon, 08 May 2023 12:52:48 +0000. Up 11.04 seconds.
+2023/05/08 12:52:49Z: Amazon SSM Agent v3.1.1927.0 is running
+2023/05/08 12:52:49Z: OsProductName: Amazon Linux
+2023/05/08 12:52:49Z: OsVersion: 2023
+[   12.339774] cloud-init[2090]: Cloud-init v. 22.2.2 running 'modules:final' at Mon, 08 May 2023 12:52:49 +0000. Up 12.20 seconds.
+
+
+Amazon Linux 2023
+Kernel 6.1.25-37.47.amzn2023.x86_64 on an x86_64 (-)
+
+ip-10-0-4-247 login: [  373.941972] cloud-init[2090]: Amazon Linux 2023 repository                    0.0  B/s |   0  B     06:00
+[  373.950448] cloud-init[2090]: Errors during downloading metadata for repository 'amazonlinux':
+[  373.956807] cloud-init[2090]:   - Curl error (28): Timeout was reached for https://al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com/core/mirrors/2023.0.20230503/x86_64/mirror.list [Connection timeout after 30000 ms]
+[  373.970240] cloud-init[2090]:   - Curl error (28): Timeout was reached for https://al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com/core/mirrors/2023.0.20230503/x86_64/mirror.list [Failed to connect to al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com port 443 after 30000 ms: Timeout was reached]
+[  373.991900] cloud-init[2090]: Error: Failed to download metadata for repo 'amazonlinux': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for https://al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com/core/mirrors/2023.0.20230503/x86_64/mirror.list [Failed to connect to al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com port 443 after 30000 ms: Timeout was reached]
+[  733.955544] cloud-init[2090]: Amazon Linux 2023 Kernel Livepatch repository   0.0  B/s |   0  B     06:00
+[  733.964964] cloud-init[2090]: Errors during downloading metadata for repository 'kernel-livepatch':
+[  733.973844] cloud-init[2090]:   - Curl error (28): Timeout was reached for https://al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com/kernel-livepatch/mirrors/al2023/x86_64/mirror.list [Failed to connect to al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com port 443 after 30000 ms: Timeout was reached]
+[  734.006451] cloud-init[2090]:   - Curl error (28): Timeout was reached for https://al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com/kernel-livepatch/mirrors/al2023/x86_64/mirror.list [Connection timeout after 30000 ms]
+[  734.020825] cloud-init[2090]: Error: Failed to download metadata for repo 'kernel-livepatch': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for https://al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com/kernel-livepatch/mirrors/al2023/x86_64/mirror.list [Failed to connect to al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com port 443 after 30000 ms: Timeout was reached]
+[  734.053615] cloud-init[2090]: Ignoring repositories: amazonlinux, kernel-livepatch
+[  854.078452] cloud-init[2090]: Error encountered while trying to retrieve release update information: Unable to retrieve release info data. Curl error (28): Timeout was reached for https://al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com/core/releasemd.xml [Failed to connect to al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com port 443 after 30000 ms: Timeout was reached]
+[  854.126638] cloud-init[2090]: Dependencies resolved.
+[  854.138339] cloud-init[2090]: Nothing to do.
+[  854.141782] cloud-init[2090]: Complete!
+[  854.473224] cloud-init[2090]: No such command: mkfs. Please use /usr/bin/yum --help
+[  854.488332] cloud-init[2090]: It could be a YUM plugin command, try: "yum install 'dnf-command(mkfs)'"
+[ 1214.871804] cloud-init[2090]: Amazon Linux 2023 repository                    0.0  B/s |   0  B     06:00
+[ 1214.879282] cloud-init[2090]: Errors during downloading metadata for repository 'amazonlinux':
+[ 1214.884522] cloud-init[2090]:   - Curl error (28): Timeout was reached for https://al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com/core/mirrors/2023.0.20230503/x86_64/mirror.list [Connection timeout after 30000 ms]
+[ 1214.897192] cloud-init[2090]:   - Curl error (28): Timeout was reached for https://al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com/core/mirrors/2023.0.20230503/x86_64/mirror.list [Failed to connect to al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com port 443 after 30000 ms: Timeout was reached]
+[ 1214.929703] cloud-init[2090]: Error: Failed to download metadata for repo 'amazonlinux': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for https://al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com/core/mirrors/2023.0.20230503/x86_64/mirror.list [Failed to connect to al2023-repos-ap-southeast-1-de612dc2.s3.dualstack.ap-southeast-1.amazonaws.com port 443 after 30000 ms: Timeout was reached]
+[ 1348.032223] cloud-init[2090]: Terminated
+Cloud-init 22.2.2 received SIGTERM, exiting...
+  Filename: /usr/lib64/python3.9/subprocess.py
+  Function: _try_wait
+  Line number: 1875
+    Filename: /usr/lib64/python3.9/subprocess.py
+    Function: _wait
+    Line number: 1917
+      Filename: /usr/lib64/python3.9/subprocess.py
+      Function: wait
+      Line number: 1189
+[ 1348.490363] cloud-init[2090]: Failed to start httpd.service: Unit httpd.service not found.
+[ 1348.611250] cloud-init[2090]: Failed to enable unit: Unit file httpd.service does not exist.
+[ 1348.703703] cloud-init[2090]: mount: /var/www/html: mount point does not exist.
+[ 1348.763341] cloud-init[2090]: tee: /var/www/html/index.html: No such file or directory
+[ 1348.774090] cloud-init[2090]: Hello VF-Cloud World from web server1
+[ 1355.404818] kauditd_printk_skb: 73 callbacks suppressed
+[ 1355.404821] audit: type=1305 audit(1683551712.413:316): op=set audit_pid=0 old=1689 auid=4294967295 ses=4294967295 subj=system_u:system_r:auditd_t:s0 res=1
+[ 1355.428086] audit: type=1131 audit(1683551712.443:317): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=auditd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1355.450436] audit: type=1131 audit(1683551712.443:318): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-tmpfiles-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1355.501562] audit: type=1131 audit(1683551712.503:319): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-remount-fs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1355.523158] audit: type=1131 audit(1683551712.503:320): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-fsck-root comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1355.541879] audit: type=1131 audit(1683551712.503:321): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-tmpfiles-setup-dev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1355.558622] audit: type=1130 audit(1683551712.503:322): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-reboot comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1355.573982] audit: type=1131 audit(1683551712.503:323): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-reboot comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1355.589430] audit: type=1334 audit(1683551712.503:324): prog-id=27 op=UNLOAD
+[ 1355.595419] audit: type=1334 audit(1683551712.503:325): prog-id=26 op=UNLOAD
+[ 1355.706168] systemd-shutdown[1]: Syncing filesystems and block devices.
+[ 1355.726789] systemd-shutdown[1]: Sending SIGTERM to remaining processes...
+[ 1355.737067] systemd-journald[1043]: Received SIGTERM from PID 1 (systemd-shutdow).
+[ 1355.760803] systemd-shutdown[1]: Sending SIGKILL to remaining processes...
+[ 1355.770990] systemd-shutdown[1]: Unmounting file systems.
+[ 1355.777067] [3388]: Remounting '/' read-only with options 'seclabel,attr2,inode64,logbufs=8,logbsize=32k,sunit=1024,swidth=1024,noquota'.
+[ 1355.797409] systemd-shutdown[1]: All filesystems unmounted.
+[ 1355.802418] systemd-shutdown[1]: Deactivating swaps.
+[ 1355.807345] systemd-shutdown[1]: All swaps deactivated.
+[ 1355.814439] systemd-shutdown[1]: Detaching loop devices.
+[ 1355.820687] systemd-shutdown[1]: All loop devices detached.
+[ 1355.828092] systemd-shutdown[1]: Stopping MD devices.
+[ 1355.836003] systemd-shutdown[1]: All MD devices stopped.
+[ 1355.843332] systemd-shutdown[1]: Detaching DM devices.
+[ 1355.849223] systemd-shutdown[1]: All DM devices detached.
+[ 1355.854601] systemd-shutdown[1]: All filesystems, swaps, loop devices, MD devices and DM devices detached.
+[ 1355.864541] systemd-shutdown[1]: Syncing filesystems and block devices.
+[ 1355.870912] systemd-shutdown[1]: Rebooting.
+[ 1356.004421] ACPI: PM: Preparing to enter system sleep state S5
+[ 1356.009758] reboot: Restarting system
+[ 1356.013535] reboot: machine restart
