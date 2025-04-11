@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo yum update -y
 sudo yum mkfs -t ext4 /dev/sdc
-sudo yum install httpd -y
+sudo install httpd -y
 sudo systemctl start httpd.service
 sudo systemctl enable httpd.service
 sudo mount /dev/sdc /var/www/html
